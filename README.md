@@ -14,23 +14,23 @@ The name of the program that runs from STAD transaction is RSSTAT26 and you can 
 
 First I needed to create a printer in SAP that sends all the data from a report to a text file. This is done in SPAD transaction defining a "dummy printer" that instead of sending the stream of data to a phisical printer it sends it to a command. It uses this command to send the data `/usr/bin/cat &F > /procesos/STAD300.txt`
 
-![Printer definition](https://github.com/kasteion/STADTRXReportAutomation/blob/master/printer01.jpg)
+![Printer definition](https://github.com/kasteion/STADTRXReportAutomation/blob/master/images/printer01.jpg)
 
-![Printer command](https://github.com/kasteion/STADTRXReportAutomation/blob/master/printer02.jpg)
+![Printer command](https://github.com/kasteion/STADTRXReportAutomation/blob/master/images/printer02.jpg)
 
 In transaction SE38 you can define variants for the RSSTAT26 program. This variants set the data you want the program to select for the report.
 
-![SE38](https://github.com/kasteion/STADTRXReportAutomation/blob/master/se38.jpg)
+![SE38](https://github.com/kasteion/STADTRXReportAutomation/blob/master/images/se38.jpg)
 
-![Variants](https://github.com/kasteion/STADTRXReportAutomation/blob/master/variants.jpg)
+![Variants](https://github.com/kasteion/STADTRXReportAutomation/blob/master/images/variants.jpg)
 
 Then comes the job definition in SM36 transaction:
 
-![SM36](https://github.com/kasteion/STADTRXReportAutomation/blob/master/job-definition.jpg)
+![SM36](https://github.com/kasteion/STADTRXReportAutomation/blob/master/images/job-definition.jpg)
 
 And in the steps for the jobs you can define the variants and even the printer from the step:
 
-![Job Steps](https://github.com/kasteion/STADTRXReportAutomation/blob/master/job-definition-steps.jpg)
+![Job Steps](https://github.com/kasteion/STADTRXReportAutomation/blob/master/images/job-definition-steps.jpg)
 
 When this jobs runs i get a text file with the data from the STAD Transaction daily... with that i can work to generate the report.
 
