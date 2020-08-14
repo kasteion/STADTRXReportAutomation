@@ -38,9 +38,13 @@ When this jobs runs i get a text file with the data from the STAD Transaction da
 
 The next step consists of uploading the text file to a Microsoft SQL Server database. The data is uploaded to a table called STAD and with the help of some views the data gets prepared for the report generation.
 
+This Loading is done in CargarReporteSTAD project. This step gets executed by the Windows Task Manager.
+
 ## Step 3: Generate Reports
 
 After the data is uploaded i have to generate reports and clean files for another process that uses the files but can't work with the originals.
+
+This report generation is done in GenerarReporteSTAD project. This step also gets executed by the Windows Task Manager.
 
 ## Step 4: Email it to the Boss
 

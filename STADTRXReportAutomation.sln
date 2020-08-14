@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30406.217
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CargarReporteSTAD", "CargarReporteSTAD\CargarReporteSTAD.csproj", "{F3F36234-6B15-4DAD-9DD2-F376C33411C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenerarReporteSTAD", "GenerarReporteSTAD\GenerarReporteSTAD.csproj", "{416DD3A1-C062-4639-89F2-83DDA7366033}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{BEC153C9-CD69-45ED-9AAF-CC68A311294E}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		images\job-definition-steps.jpg = images\job-definition-steps.jpg
+		images\job-definition.jpg = images\job-definition.jpg
+		LICENSE = LICENSE
+		images\printer01.jpg = images\printer01.jpg
+		images\printer02.JPG = images\printer02.JPG
+		README.md = README.md
+		images\se38.jpg = images\se38.jpg
+		images\stad.jpg = images\stad.jpg
+		images\variants.jpg = images\variants.jpg
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F3F36234-6B15-4DAD-9DD2-F376C33411C5}.Debug|x86.ActiveCfg = Debug|x86
+		{F3F36234-6B15-4DAD-9DD2-F376C33411C5}.Debug|x86.Build.0 = Debug|x86
+		{F3F36234-6B15-4DAD-9DD2-F376C33411C5}.Release|x86.ActiveCfg = Release|x86
+		{F3F36234-6B15-4DAD-9DD2-F376C33411C5}.Release|x86.Build.0 = Release|x86
+		{416DD3A1-C062-4639-89F2-83DDA7366033}.Debug|x86.ActiveCfg = Debug|x86
+		{416DD3A1-C062-4639-89F2-83DDA7366033}.Debug|x86.Build.0 = Debug|x86
+		{416DD3A1-C062-4639-89F2-83DDA7366033}.Release|x86.ActiveCfg = Release|x86
+		{416DD3A1-C062-4639-89F2-83DDA7366033}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D2D7740E-E632-4880-AA4F-E4765CE1AE41}
+	EndGlobalSection
+EndGlobal
