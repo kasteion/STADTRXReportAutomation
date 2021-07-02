@@ -46,6 +46,6 @@ After the data is uploaded i have to generate reports and clean files for anothe
 
 This report generation is done in GenerarReporteSTAD project. This step also gets executed by the Windows Task Manager.
 
-## Step 4: Email it to the Boss
+## Step 4: Email it to Manager
 
 The final report gets sended to those interested.
